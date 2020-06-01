@@ -1,0 +1,48 @@
+
+div#main-content {
+    width: 750px;
+    margin: 20px auto 0;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+div#main-content img {
+    width:400px;
+    height: 255px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+div#main-content h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#main-content article h2 {
+    margin-bottom: 5px;
+}
+
+div#main-content article {
+    padding: 25px;
+    
+}
+
+div#main-content article p {
+    margin-bottom: 20px;
+}
+
+div#main-content li {
+    list-style: none;
+}
+
+div#main-content article a {
+    color: #fc963a;
+}
+
+div#main-content article a:hover {
+    background: #fc963a;
+    color: #FFF;
+}

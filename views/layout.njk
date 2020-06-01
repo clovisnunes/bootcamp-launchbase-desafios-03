@@ -1,0 +1,25 @@
+{% block layout %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+    {% block css %}{% endblock %}
+</head>
+<body>
+    <header id="main-header">
+        <ul>
+            <li><a target="_blank" href="https://discordapp.com/invite/gCRAFhc">Comunidade</a></li>
+            <li><a href="mailto:oi@rocketseat.com.br">Email</a></li>
+            <li><a href="tel:+5547992078767">Telefone</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="/conteudos">Conteudos</a></li>
+        </ul>
+    </header>
+{% endblock %}
+
+{% block content %}{% endblock %}
+

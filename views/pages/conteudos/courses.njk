@@ -1,0 +1,52 @@
+{% extends "layout.njk" %}
+
+    {% block css %}
+        <link rel="stylesheet" href="css/pages/conteudos/styles.css">
+    {% endblock %}
+
+    {% block content %}
+
+    <div class="container" >
+        <div class="card item-a">
+            <img class="logo" src="./img/pages/conteudos/starter.svg" alt="">
+            <div class="description">
+                <h1>Starter</h1>
+                <p>11 módulos</p>
+                <span>GRÁTIS</span>
+            </div>
+        </div>
+        <div class="card item-b">
+            <img class="logo" src="./img/pages/conteudos/launchbase.svg" alt="">
+            <div class="description">
+                <h1>LaunchBase</h1>
+                <p>11 módulos</p>
+                <span>GRÁTIS</span>
+            </div>
+        </div>
+        <div class="card item-c">
+            <img class="logo" src="./img/pages/conteudos/gostack.svg" alt="">
+            <div class="description">
+                <h1>GoStack</h1>
+                <p>11 módulos</p>
+                <span>GRÁTIS</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <span class="maximize">&plus;</span>
+            <iframe id="iframec" src="">
+            </iframe>
+        </div>
+        
+    </div>
+    
+    <script src="js/pages/conteudos/modal.js"></script>
+</body>
+</html>
+
+{% endblock %}
