@@ -1,51 +1,45 @@
 {% extends "layout.njk" %}
 
     {% block css %}
+        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/pages/conteudos/styles.css">
     {% endblock %}
 
     {% block content %}
 
     <div class="container" >
-        <div class="card item-a">
+    <a class="link item-a" href={{data[0].courseurl}} >
+        <div class="card">
             <img class="logo" src="./img/pages/conteudos/starter.svg" alt="">
             <div class="description">
-                <h1>Starter</h1>
-                <p>11 módulos</p>
-                <span>GRÁTIS</span>
+                <h1>{{data[0].title}}</h1>
+                <p>{{data[0].modulos}}</p>
+                <span>{{data[0].custo}}</span>
             </div>
         </div>
+    </a>
+    <a class="link item-b" href={{data[1].courseurl}} >
         <div class="card item-b">
             <img class="logo" src="./img/pages/conteudos/launchbase.svg" alt="">
             <div class="description">
-                <h1>LaunchBase</h1>
-                <p>11 módulos</p>
-                <span>GRÁTIS</span>
+                <h1>{{data[1].title}}</h1>
+                <p>{{data[1].modulos}}</p>
+                <span>{{data[1].custo}}</span>
             </div>
         </div>
+    </a>
+    <a class="link item-c" href={{data[2].courseurl}} >
         <div class="card item-c">
             <img class="logo" src="./img/pages/conteudos/gostack.svg" alt="">
             <div class="description">
-                <h1>GoStack</h1>
-                <p>11 módulos</p>
-                <span>GRÁTIS</span>
+                <h1>{{data[2].title}}</h1>
+                <p>{{data[2].modulos}}</p>
+                <span>{{data[2].custo}}</span>
             </div>
         </div>
+    </a>
     </div>
 
-    <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <span class="maximize">&plus;</span>
-            <iframe id="iframec" src="">
-            </iframe>
-        </div>
-        
-    </div>
-    
-    <script src="js/pages/conteudos/modal.js"></script>
 </body>
 </html>
 

@@ -30,80 +30,27 @@ div.description {
 }
 
 
-div.container div.item-a {
+div.container .item-a {
     grid-column-start: 2;
 }
 
-div.container div.item-b {
+div.container .item-b {
     grid-column-start: 3;
 }
 
-div.container div.item-c {
+div.container .item-c {
     grid-column-start: 4;
 }
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+#divlink {
+    background-color: #D0D0D0;
+    width: 100px;
+    height: 100px;
 }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 10% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-.maximized {
-    background-color: #fefefe;
+a.link {
+    display: block;
+    height: 100%;
     width: 100%;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #888;
-}
-
-iframe {
-    width: 100%; /* Could be more or less, depending on screen size */
-    height: 100vh;
-}
-
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    margin-left: 8px;
-}
-
-.maximize {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.maximize:hover,
-.maximize:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    text-decoration: none;
 }

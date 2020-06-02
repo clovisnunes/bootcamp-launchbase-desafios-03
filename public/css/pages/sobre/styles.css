@@ -38,11 +38,11 @@ div#main-content li {
     list-style: none;
 }
 
-div#main-content article a {
+div#main-content article a.sociais {
     color: #fc963a;
 }
 
-div#main-content article a:hover {
+div#main-content article a.sociais:hover {
     background: #fc963a;
     color: #FFF;
 }

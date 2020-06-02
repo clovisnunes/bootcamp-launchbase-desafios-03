@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+
+    {% block css %}
+        <link rel="stylesheet" href="../css/pages/courses/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/pages/sobre/styles.css">
+    {% endblock %}
+
+    {% block content %}
+
+    <div id="main-content">
+
+        <article>
+            <div class="card">
+                <img class="logo" src={{cimg}}>
+                <div class="description">
+                    <h1>{{title}}</h1>
+                    <p>{{modulos}}</p>
+                    <span>{{custo}}</span>
+                </div>
+            </div>
+
+            <a id="cursopage" href="#" target="_blanc">Pagina do curso</a>
+        </article>
+
+    </div>
+
+    </body>
+    </html>
+
+    {% endblock %}
